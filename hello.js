@@ -7,4 +7,7 @@ console.log("olaaa2");
 
 //Add 2 more
 console.log('ola3');
-console.log('ola4');
+//Fixes one
+
+//Add 1 that is not merged
+console.log('ola5');

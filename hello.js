@@ -15,4 +15,3 @@ console.log('ola5');
 //Add 4 new issues
 console.log('ola6');
 console.log('ola7');
-console.log('ola8');

@@ -12,3 +12,4 @@ console.log('ola3');
 //Add 1 that is not merged
 console.log('ola5');
 
+//test

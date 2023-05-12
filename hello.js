@@ -1,17 +1,6 @@
-//Issues before the repo was added to Codacy
-console.log("ola");
-console.log("olaaa");
 
-console.log('ola2');
-console.log("olaaa2");
+var username = "admin";
+var password = "' OR '1'='1";
 
-//Add 2 more
-console.log('ola3');
-//Fixes one
-
-//Add 1 that is not merged
-console.log('ola5');
-
-//test
-test
-//test
+var query = "SELECT * FROM users WHERE username='" + username + "' AND password='" + password + "'";
+// Execute the query...

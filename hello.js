@@ -1,17 +1,6 @@
-//Issues before the repo was added to Codacy
-console.log("ola");
-console.log("olaaa");
+// This code is vulnerable to Cross-Site Scripting (XSS) attack
 
-console.log('ola2');
-console.log("olaaa2");
+var userInput = "<script>alert('XSS Attack!');</script>";
+var message = "Welcome, " + userInput;
 
-//Add 2 more
-console.log('ola3');
-//Fixes one
-
-//Add 1 that is not merged
-console.log('ola5');
-
-//test
-test
-//test
+document.getElementById("output").innerHTML = message;
